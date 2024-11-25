@@ -9,8 +9,7 @@ document.getElementById("imcForm").addEventListener("submit", function(event) {
     if (imc < 18.5) {
         resultado += "Você está abaixo do peso. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Dieta rica em calorias e nutrientes para o ganho de peso de forma saudável. Ex:Bife de carne vermelha grelhada, arroz integral e legumes cozidos.
-Sopa de feijão com legumes e frango.
-</li>";
+Sopa de feijão com legumes e frango.</li>";
         resultado += "<li><strong>Atividades:</strong> Exercícios de resistência como musculação, para ganho de massa muscular.</li></ul>";
     } else if (imc >= 18.5 && imc < 24.99) {
         resultado += "Você está com peso normal. Sugestões:";
