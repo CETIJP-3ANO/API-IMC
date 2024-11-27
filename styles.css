@@ -63,3 +63,24 @@ button:hover {
     margin-top: 20px;
     text-align: center;
 }
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background: #f9f9f9; /* Fundo claro para destacar */
+    padding: 15px;
+    border-top: 2px solid #ccc;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer .colaboradores h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+footer .colaboradores p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
