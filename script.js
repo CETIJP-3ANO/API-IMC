@@ -9,7 +9,7 @@ document.getElementById("imcForm").addEventListener("submit", function(event) {
     if (imc < 18.5) {
         resultado += "Você está abaixo do peso. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Dieta rica em calorias e nutrientes para o ganho de peso de forma saudável. Exemplo: Bife de carne vermelha grelhada, arroz integral e legumes cozidos, sopa de feijão com legumes e frango.</li>";
-        resultado += "<li><strong>Atividades:</strong> MUSCULAÇÃO 2 A 3 VEZ POR SEMANA (AGACHAMENTO, FLEXÃO,ELEVAÇÃO DE PANTURRILHA, DENTRE OUTROS).</li></ul>";
+        resultado += "<li><strong>Atividades:</strong> MUSCULAÇÃO 2 A 3 VEZES POR SEMANA (AGACHAMENTO, FLEXÃO,ELEVAÇÃO DE PANTURRILHA, DENTRE OUTROS).</li></ul>";
     } else if (imc >= 18.5 && imc < 24.99) {
         resultado += "Você está com peso normal. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Dieta balanceada, com alimentos nutritivos e saudáveis. Exemplo: Salada de folhas verdes com frango grelhado, tomate, azeite; arroz integral com legumes; sopa de legumes com abobrinha e ervilha e pão integral.</li>";
